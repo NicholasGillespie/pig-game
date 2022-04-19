@@ -10,4 +10,6 @@ Jeu à deux joueurs consistant à lancer un dé à tour de rôle pour devenir le
 
 L'interface est algorithmiquement adaptable.
 
+![Webpage screenshot](/images/screenshot.jpg)
+
 ## _À ton tour!_
