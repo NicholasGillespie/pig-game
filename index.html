@@ -9,40 +9,40 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="container stack">
 
-  <div class="container ">
+  <header class="cluster ">
+    <button class="margin-inline-end:auto" id="btn--new">🔄 new game</button>
+    <div class="cluster">
+      <button id="btn--roll">🎲 roll dice</button>
+      <button id="btn--hold">📥 hold</button>
+    </div>
+  </header>
 
-    <header class="cluster">
-      <button>new game</button>
-      <div class="flex-gap">
-        <button>roll dice</button>
-        <button>hold</button>
+
+  <main class="switcher">
+    <section class="[ box stack ][ text-align:center ] # player--active" id="player--0">
+      <h2 id="name--0">player 1</h2>
+      <h3 class="space0" id="score--0">X</h3>
+      <div class="[ box stack ][ space5 ]">
+        <p>current</p>
+        <h4 class="space0" id="current--0">0</h4>
       </div>
-    </header>
+    </section>
 
-    <main class="switcher">
-      <section class="box flow">
-        <h2>player 1</h2>
-        <p class="space-flow-none">5</p>
-        <div class="[ box frame ][ space-flow6 space-4 ]">
-          <p>current</p>
-          <p>score</p>
-        </div>
-      </section>
+    <div class="[ text-align:center ] # dice-div">
+      <img class="dice" src="images/dice-1.png" alt="dice">
+    </div>
 
-
-      <section class="box flow" style="background-color:var(--clr-trans-strong)">
-        <h2>player 2</h2>
-        <p class="space-flow-none">5</p>
-        <div class="[ box frame ][ space-flow6 space-4 ]">
-          <p>current</p>
-          <p>score</p>
-        </div>
-      </section>
-    </main>
-
-  </div>
+    <section class="[ box stack ][ text-align:center ]" id="player--1">
+      <h2 id="name--1">player 2</h2>
+      <h3 class="space0" id="score--1">X</h3>
+      <div class="[ box stack ][ space5 ]">
+        <p>current</p>
+        <h4 class="space0" id="current--1">0</h4>
+      </div>
+    </section>
+  </main>
 
   <script src="script.js"></script>
 </body>
