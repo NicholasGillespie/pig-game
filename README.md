@@ -8,7 +8,7 @@ Jeu à deux joueurs consistant à lancer un dé à tour de rôle pour devenir le
 
 ## Mise en page
 
-L'interface est algorithmiquement adaptable.
+Interface algorithmiquement adaptable.
 
 ![Webpage screenshot](/images/screenshot.jpg)
 
